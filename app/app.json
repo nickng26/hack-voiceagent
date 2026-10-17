@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Trailmate",
+    "slug": "trailmate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "com.example.trailmate",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Trailmate needs the microphone so you can talk to your hiking buddy.",
+        "NSLocationWhenInUseUsageDescription": "Trailmate uses your location to track your hike, check weather, and send help if needed."
+      }
+    },
+    "android": {
+      "package": "com.example.trailmate",
+      "permissions": ["RECORD_AUDIO", "ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "MODIFY_AUDIO_SETTINGS"]
+    },
+    "plugins": ["expo-location"]
+  }
+}
